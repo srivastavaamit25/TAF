@@ -1,0 +1,25 @@
+
+	<HTML >
+	<HEAD>
+	<title>TAF_Regression  - Automation testing results</title>
+	<script>function result(id, textValue) {    document.getElementById(id).innerHTML = textValue;}</script></HEAD>
+	<BODY bgcolor = wHITE>
+		<TABLE border=1  width="100%">
+		<TR>
+			<TH  vAlign=bottom align=center bgcolor = white><B><FONT color=white face=#009900 size=3><img src="C:/softwares/logo.jpg" onerror="this.src='..C:/softwares/logo.jpg'" border=0> </FONT></B></TH>
+			</TR>
+		</TABLE>
+			<TABLE border=1  width="100%">
+			<TR>
+			
+				<TH vAlign=bottom align=center ><FONT  color = #3030A0 FACE=#009900 size=6>Execution Report</FONT></FONT></TH>
+			</TR>
+			</TABLE>
+		
+		 <summary><b><FONT  color = #3030A0 FACE=#009900 size=4>Execution Details</Font></B></summary>
+		 <TABLE border=1 color=red cellPadding=3 cellSpacing=2 width='100%'>
+		  <TR><TH  border=1 width="10%" align="left"><b>Project Name: </b></th> <th align="left">TAF_Regression</th></TR>
+			<TR><TH align="left"><b>Release: </b></th> <th  align="left">MR39</th></TR>
+			<TR><TH align="left"><b>Executed By : </b></th> <th align="left">QA GROUP</TH></TR>
+		
+				

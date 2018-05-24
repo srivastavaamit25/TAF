@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tnf.testcases.MainTest" failures="0" tests="1" time="723.328" errors="0">
+  <properties/>
+  <testcase name="applicationTest" time="723.314" classname="com.tnf.testcases.MainTest"/>
+</testsuite>

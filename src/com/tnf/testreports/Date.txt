@@ -1,0 +1,7 @@
+<h4>Execution Time
+<script type="text/javascript">
+<!--
+var currentTime = new Date()
+//-->
+</script>
+</h4>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tnf.testcases.MainTest(failed)" failures="1" tests="1" time="14.485" errors="0">
+  <properties/>
+  <testcase name="applicationTest" time="14.444" classname="com.tnf.testcases.MainTest">
+    <failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=31.0.1650.63)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 21:09:54&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: ChromeDriver
+Session ID: 6a5aacd345eba4bd596afffcc38f98cc">
+      <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=31.0.1650.63)
+  (Driver info: chromedriver=2.8.241075,platform=Windows NT 6.1 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 21:09:54'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_45'
+Driver info: driver.version: ChromeDriver
+Session ID: 6a5aacd345eba4bd596afffcc38f98cc
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.chrome.ChromeDriver.getScreenshotAs(ChromeDriver.java:177)
+	at com.tnf.util.Keywords.executeKeywords(Keywords.java:164)
+	at com.tnf.testcases.MainTest.applicationTest(MainTest.java:69)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

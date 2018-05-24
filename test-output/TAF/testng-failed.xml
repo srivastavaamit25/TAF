@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [TAF]">
+  <parameter name="selenium.port" value="3306"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="*firefox"/>
+  <test name="MainTest(failed)">
+    <classes>
+      <class name="com.tnf.testcases.MainTest">
+        <methods>
+          <include name="applicationTest"/>
+        </methods>
+      </class> <!-- com.tnf.testcases.MainTest -->
+    </classes>
+  </test> <!-- MainTest(failed) -->
+</suite> <!-- Failed suite [TAF] -->
